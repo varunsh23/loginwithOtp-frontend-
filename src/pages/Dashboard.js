@@ -16,7 +16,7 @@ const Dashboard = () => {
 
   useEffect(() => {
     userValid();
-  }, [])
+  },)
   return (
     <div>Dashboard</div>
   )

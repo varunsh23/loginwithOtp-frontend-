@@ -58,8 +58,7 @@ const Register = () => {
         <div className="form_data">
           <div className="form_heading">
             <h1>Sign Up</h1>
-            <p style={{textAlign:"center"}}>We are glad that you will be using Project Cloud to manage
-              your tasks! We hope that you will get like it.</p>
+            
           </div>
           <form>
             <div className="form_input">
@@ -80,7 +79,6 @@ const Register = () => {
               </div>
             </div>
             <button className='btn' onClick={handleSubmit}>Sign Up</button>
-            <p>Don't have and account </p>
           </form>
         </div>
         <ToastContainer />
